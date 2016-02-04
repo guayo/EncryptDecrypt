@@ -111,6 +111,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(351, 20);
             this.textBoxPassword.TabIndex = 3;
+            this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
             // frmStringEncryption
             // 
